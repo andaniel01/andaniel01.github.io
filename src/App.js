@@ -1,7 +1,8 @@
 import './App.css';
 
-import {Navbar, Nav, Container, Row, Col, Card} from 'react-bootstrap'
+import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap'
 import profilePic from './daniel.JPG'
+import waterlooLogo from './waterlooLogo.jpg'
 
 function App() {
   return (
@@ -22,36 +23,60 @@ function App() {
       <div className='picture-background'>
         
       </div>
-      <div className='Main-background'>
+      <div className='main-background'>
         {/* <Card style={{width:' 80% ', margin:'auto', height:'100%', paddingLeft: '10%', paddingRight: '10%', background: '#BEE9E8'}}> */}
-          <Container>
+          <Container style={{paddingLeft: '10%', paddingRight: '10%'}}>
             <div className='header'>
               <Row>
                 <Col>
                   <div className='name'>
-                    Hi, I'm Daniel
+                    About Me
                   </div>
                   <div className='name-detail'>
-                    Software Engineer Intern + Computer Engineering Student 
+                    I'm a Computer Engineering Student 
                   </div>
-                  <hr></hr>
                 </Col>
               </Row>
             </div>
-          <div className='intro'>
-            <Row>
-              <Col><img className='profile-pic' src={profilePic}/></Col>
-            </Row>
-            <Row style={{paddingTop: '2%'}}>
-              <Col>Hi, I'm Daniel An. I am a 2nd year student @ UWaterloo, studying Computer Engineering. I am currently working at the Ministry of Children, Community, and Social Services as a Junior Software Engineer. </Col>
-            </Row>
             <hr></hr>
+          <div className='intro'>
+            <Row style={{paddingTop: '2%'}}>
+              <Col><img className='profile-pic' src={profilePic}/></Col>
+              <Col>
+              About Me
+              <br></br>
+              <br></br>
+              Hi, I'm Daniel An.<br></br>
+              I am a 2nd year student @ UWaterloo, studying Computer Engineering. 
+              I am currently working at the Ministry of Children, Community, and Social Services as a Junior Software Engineer.
+              </Col>
+            </Row>
           </div>
           </Container>
         {/* </Card> */}
       </div>
-      <div className='footer'>
+      <div className='experience-background'>
+        <Container style={{paddingLeft: '10%', paddingRight: '10%'}}>
+          <div className='header'>
+            <Row>
+              <Col>
+                <div className='name'>
+                   Experience
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <hr></hr>
+          <div className='experience-type'>Education</div>
+          <Row>
+            <Col><img className='experience-image' src={waterlooLogo}/></Col>
+            <Col><strong>Univeristy of Waterloo</strong></Col>
+          </Row>
+        </Container>
+      </div>
 
+
+      <div className='footer'>
       </div>
     </div>
   );

@@ -3,25 +3,23 @@
   background-color: #90E0EF;
 }
 
-.Main-background{
+.main-background{
   background: white;
-  height: 100vh;
-  padding-top: 7.5%;
+  height: 75vh;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
+
 .intro{
   height: 80%;
-  padding-left: 20%;
-  padding-right: 20%;
-
   text-align: center;
   justify-content: center;
 }
 
 .profile-pic{
   height: 100%;
-  width: 50%;
+  width: 70%;
 }
 
 .nav-bg-color{
@@ -46,6 +44,23 @@
 
 .nav-text{
   color: #0077B6;
+}
+
+.experience-background{
+  background: #f4f3ee;
+  height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.experience-type{
+  font-size: 150%;
+}
+
+.experience-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
 }
 
 .footer{

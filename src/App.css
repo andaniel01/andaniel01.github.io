@@ -48,7 +48,7 @@
 
 .experience-background{
   background: #f4f3ee;
-  height: 100vh;
+  height: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -58,9 +58,10 @@
 }
 
 .experience-image{
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   border-radius: 25px;
+  background-color: white;
 }
 
 .footer{

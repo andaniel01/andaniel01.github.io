@@ -76,13 +76,13 @@ function App() {
               <div>
                 <Row>
                   <Col xs={8}><strong>University of Waterloo</strong></Col>
-                  <Col>2019 - Present</Col>
+                  <Col>Sept 2019 - Present</Col>
                 </Row>
               </div>
               <div>Candidate for BASc Computer Engineering</div>
               <br></br>
               <p>I am currently in my 2nd year studying computer engineering. So far, I love the experiences I've gained and the memories 
-                I've made here so far. Although it may be hard sometimes, it feels great at the end when I see that I passed.  </p>
+                I've made here so far. Although it may be hard sometimes, it feels great at the end when I see that I passed.</p>
             </Col>
           </Row>
           <hr></hr>
@@ -94,13 +94,37 @@ function App() {
               <div>
                 <Row>
                   <Col xs={8}><strong>Ministry of Children, Community, and Social Services</strong></Col>
-                  <Col>2019 - Present</Col>
+                  <Col>Sept 2020 - Dec 2020</Col>
                 </Row>
               </div>
               <div>Software Engineer</div>
               <br></br>
-              <p>I am currently in my 2nd year studying computer engineering. So far, I love the experiences I've gained and the memories 
-                I've made here so far. Although it may be hard sometimes, it feels great at the end when I see that I passed.  </p>
+              <ul>
+                <li>Used Spring and MySQL to design and develop a web application built with RESTful web services to operate CRUD functionalities. Data extraction from CSV files using SuperCSV 
+                along with JPA/JDBC for data persistence and JSP with HTML, CSS, JSTL for data visualization support.</li>
+                <li>Implemented APIs for data extraction from log files to support application traceability using Hibernate and Oracle SQL Developer</li>
+                <li>Involved in an Agile development team and provided quality assurance and testing for the EDM (Electric Document Management) department of the Social Assistance Management Service.</li>
+              </ul>
+            </Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col><img className='experience-image' src={experience1logo}/></Col>
+            <Col>
+              <div>
+                <Row>
+                  <Col xs={8}><strong>Ministry of Children, Community, and Social Services</strong></Col>
+                  <Col>Jan 2020 - May 2020</Col>
+                </Row>
+              </div>
+              <div>Software Engineer</div>
+              <br></br>
+              <ul>
+                <li>Used Spring and MySQL to design and develop a web application built with RESTful web services to operate CRUD functionalities. Data extraction from CSV files using SuperCSV 
+                along with JPA/JDBC for data persistence and JSP with HTML, CSS, JSTL for data visualization support.</li>
+                <li>Implemented APIs for data extraction from log files to support application traceability using Hibernate and Oracle SQL Developer</li>
+                <li>Involved in an Agile development team and provided quality assurance and testing for the EDM (Electric Document Management) department of the Social Assistance Management Service.</li>
+              </ul>
             </Col>
           </Row>
 

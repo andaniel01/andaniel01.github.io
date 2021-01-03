@@ -1,9 +1,11 @@
 import './App.css';
 
-import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap'
+import {Navbar, Nav, Container, Row, Col, Card, Button, ProgressBar} from 'react-bootstrap'
 import profilePic from './daniel.JPG'
 import waterlooLogo from './waterlooLogo.jpg'
 import experience1logo from './experience1Logo.png'
+
+const notStartedProgress = 0;
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       </Navbar>
       <div className='picture-background'>
         
+        <div className='contact-info'></div>
       </div>
       <div className='main-background'>
         {/* <Card style={{width:' 80% ', margin:'auto', height:'100%', paddingLeft: '10%', paddingRight: '10%', background: '#BEE9E8'}}> */}
@@ -127,13 +130,50 @@ function App() {
               </ul>
             </Col>
           </Row>
-
-
+        </Container>
+      </div>
+      <div className='project-background'>
+        <Container style={{paddingLeft: '10%', paddingRight: '10%'}}>
+          <div className='header'>
+            <Row>
+              <Col>
+                <div className='name'>
+                    Projects
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <hr></hr>
+          
+          <Row>
+            <Col>
+              <Card>
+                <Card.Body>
+                  <Card.Title>Coming Soon</Card.Title>
+                  <Card.Text>
+                    Currently thinking of a project to work on...
+                  </Card.Text>
+                  <ProgressBar animated now={notStartedProgress} label={`${notStartedProgress}%`}/>
+                  <br></br>
+                  <Button>Github</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        
         </Container>
       </div>
 
-
       <div className='footer'>
+        <Container style={{paddingLeft:'30%', paddingRight:'30%'}}>
+          Daniel An
+          <hr></hr>
+          <Row>
+            <Col><a href='https://www.linkedin.com/in/an-daniel/'>LinkedIn</a></Col>
+            <Col><a href='https://www.instagram.com/daniel_an_/'>Instagram</a></Col>
+            <Col><a href='https://drive.google.com/file/d/1ADwBzjc8JMy8DJXzwrX99NIa1lxyx3Z5/view?usp=sharing'>Resume</a></Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

@@ -1,6 +1,37 @@
+html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+html{
+  scroll-behavior: smooth
+}
+
 .picture-background{
   height: 100vh;
-  background-color: #90E0EF;
+  background-image: url(yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+ 
+}
+
+.main-text{
+  padding-top: 17%;
+  text-align: center;
+  color: white;
+  font-weight: 450;
+  font-size: 500%;
+  border: black;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+}
+
+.text-loop{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 .main-background{
@@ -10,7 +41,6 @@
   padding-bottom: 5%;
 }
 
-
 .intro{
   height: 80%;
   text-align: center;
@@ -18,12 +48,13 @@
 }
 
 .profile-pic{
+  margin-top: 10%;
   max-height: 75%;
   max-width: 75%;
 }
 
 .nav-bg-color{
-  background-color: #90E0EF;
+  background-color: #90e1ef00;
 }
 
 .header{
@@ -79,15 +110,9 @@
   text-align: center;
 }
 
-.contact-info{
-  
+.about-me-text{
+  margin-top: 25%;
 }
-
-
-
-
-
-
 
 
 

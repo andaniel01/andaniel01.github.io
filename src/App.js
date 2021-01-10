@@ -17,18 +17,21 @@ function App() {
     <div id='home'>
       
       <div className='picture-background'>
-      <Navbar className='nav-bg-color' variant="light">
+      <Navbar className='nav-bg-color' variant="light" expand="lg">
         <Container>
         <Navbar.Brand href="#home">
           <div className='nav-text'>Daniel An</div>
         </Navbar.Brand>
-        <Nav>
-          <Nav.Link href="#home"><div className='nav-text'>Home</div></Nav.Link>
-          <Nav.Link href="#aboutMe"><div className='nav-text'>About Me</div></Nav.Link>
-          <Nav.Link href="#experience"><div className='nav-text'>Experience</div></Nav.Link>
-          <Nav.Link href="#project"><div className='nav-text'>Project</div></Nav.Link>
-          <Nav.Link href="https://drive.google.com/file/d/1ADwBzjc8JMy8DJXzwrX99NIa1lxyx3Z5/view?usp=sharing" target='_blank'><div className='nav-text'>Resume</div></Nav.Link>
-        </Nav>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link href="#home"><div className='nav-text '>Home</div></Nav.Link>
+            <Nav.Link href="#aboutMe"><div className='nav-text'>About Me</div></Nav.Link>
+            <Nav.Link href="#experience"><div className='nav-text'>Experience</div></Nav.Link>
+            <Nav.Link href="#project"><div className='nav-text'>Project</div></Nav.Link>
+            <Nav.Link href="https://drive.google.com/file/d/1ADwBzjc8JMy8DJXzwrX99NIa1lxyx3Z5/view?usp=sharing" target='_blank'><div className='nav-text'>Resume</div></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
         </Container>
       </Navbar>
         <Reveal>

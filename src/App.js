@@ -20,7 +20,7 @@ function App() {
       <Navbar className='nav-bg-color' variant="light" expand="lg">
         <Container>
         <Navbar.Brand href="#home">
-          <div className='nav-text'>Daniel Aniel</div>
+          <div className='nav-text'>Daniel An</div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

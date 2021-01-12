@@ -1,6 +1,6 @@
 {
-  "homepage": "https://andaniel01.github.io/personal",
-  "name": "personal",
+  "homepage": "https://andaniel01.github.io/personal-website",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
     "react-text-loop": "^2.3.0",
     "web-vitals": "^0.2.4"
   },
-  "scripts": {
+  "scripts": {s
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

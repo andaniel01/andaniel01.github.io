@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/danielan.me/static/css/main.c8f58fef.chunk.css",
-    "main.js": "/danielan.me/static/js/main.af12ae8c.chunk.js",
-    "main.js.map": "/danielan.me/static/js/main.af12ae8c.chunk.js.map",
-    "runtime-main.js": "/danielan.me/static/js/runtime-main.c5af7ebd.js",
-    "runtime-main.js.map": "/danielan.me/static/js/runtime-main.c5af7ebd.js.map",
-    "static/js/2.63a6b755.chunk.js": "/danielan.me/static/js/2.63a6b755.chunk.js",
-    "static/js/2.63a6b755.chunk.js.map": "/danielan.me/static/js/2.63a6b755.chunk.js.map",
-    "static/js/3.de9e1540.chunk.js": "/danielan.me/static/js/3.de9e1540.chunk.js",
-    "static/js/3.de9e1540.chunk.js.map": "/danielan.me/static/js/3.de9e1540.chunk.js.map",
-    "index.html": "/danielan.me/index.html",
-    "static/css/main.c8f58fef.chunk.css.map": "/danielan.me/static/css/main.c8f58fef.chunk.css.map",
-    "static/js/2.63a6b755.chunk.js.LICENSE.txt": "/danielan.me/static/js/2.63a6b755.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/danielan.me/static/media/background.c627a9e9.jpg",
-    "static/media/daniel.4199d73c.JPG": "/danielan.me/static/media/daniel.4199d73c.JPG",
-    "static/media/experience1Logo.e85cfa0a.png": "/danielan.me/static/media/experience1Logo.e85cfa0a.png",
-    "static/media/waterlooLogo.523177bd.jpg": "/danielan.me/static/media/waterlooLogo.523177bd.jpg"
+    "main.css": "/static/css/main.66b8698d.chunk.css",
+    "main.js": "/static/js/main.af12ae8c.chunk.js",
+    "main.js.map": "/static/js/main.af12ae8c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.71d4f16b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.71d4f16b.js.map",
+    "static/js/2.63a6b755.chunk.js": "/static/js/2.63a6b755.chunk.js",
+    "static/js/2.63a6b755.chunk.js.map": "/static/js/2.63a6b755.chunk.js.map",
+    "static/js/3.de9e1540.chunk.js": "/static/js/3.de9e1540.chunk.js",
+    "static/js/3.de9e1540.chunk.js.map": "/static/js/3.de9e1540.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.66b8698d.chunk.css.map": "/static/css/main.66b8698d.chunk.css.map",
+    "static/js/2.63a6b755.chunk.js.LICENSE.txt": "/static/js/2.63a6b755.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.c627a9e9.jpg",
+    "static/media/daniel.4199d73c.JPG": "/static/media/daniel.4199d73c.JPG",
+    "static/media/experience1Logo.e85cfa0a.png": "/static/media/experience1Logo.e85cfa0a.png",
+    "static/media/waterlooLogo.523177bd.jpg": "/static/media/waterlooLogo.523177bd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5af7ebd.js",
+    "static/js/runtime-main.71d4f16b.js",
     "static/js/2.63a6b755.chunk.js",
-    "static/css/main.c8f58fef.chunk.css",
+    "static/css/main.66b8698d.chunk.css",
     "static/js/main.af12ae8c.chunk.js"
   ]
 }

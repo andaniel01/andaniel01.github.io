@@ -43,7 +43,7 @@ function App() {
           <TextLoop springConfig={{ stiffness: 140, damping: 10 }}>
             <div style={{color: 'white'}}>2A Computer Engineering student</div>
             <div style={{color: 'white'}}>Seeking 2021 Summer Internship</div>
-            <div style={{color: 'white'}}>Interested in sustainable techfor social good</div>
+            <div style={{color: 'white'}}>Interested in sustainable tech for social good</div>
           </TextLoop>
         </div>
         
